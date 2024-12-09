@@ -30,6 +30,10 @@
         flex-direction: column;
         align-items: center;
       }
+      img {
+        width: 50px;
+        height: 50px;
+      }
 
       .author-info {
         font-size: 14px;
@@ -45,10 +49,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        margin: 160px 0px 0px 0px;
       }
       .header-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         font-size: 48px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
@@ -115,7 +120,7 @@
         font-style: normal;
       }
       .help-text {
-        
+
         font-size: 14px;
         font-family: "Poppins", serif;
         font-weight: 400;
@@ -125,9 +130,11 @@
   </head>
   <body>
     <section class="container-section">
-      <img src="./resources/logo.svg" alt="">
-      <h1 class="header-text">Join our newsletter</h1>
-  
+      <header class="header-text">
+        <img src="./resources/logo.svg" alt="">
+       <h1 class="header-text">Join our newsletter</h1>
+      </header>
+      
       <p class="subheading-text"> Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.
       </p>
       
